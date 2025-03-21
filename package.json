@@ -1,0 +1,28 @@
+{
+  "name": "sessionlab-bug-creator",
+  "version": "1.0.0",
+  "description": "Tool to create bug issues using the Sessionlab bug template",
+  "main": "create-bug-issue.js",
+  "bin": {
+    "create-sessionlab-bug": "./create-bug-issue.js"
+  },
+  "scripts": {
+    "start": "node create-bug-issue.js"
+  },
+  "keywords": [
+    "sessionlab",
+    "github",
+    "issue",
+    "bug",
+    "template"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^18.12.0",
+    "chalk": "^4.1.2"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
